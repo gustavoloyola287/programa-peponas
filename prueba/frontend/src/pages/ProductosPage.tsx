@@ -41,7 +41,7 @@ const ProductosPage = () => {
   };
 
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
+    <div style={{ textAlign: "center", marginTop: "60px" }}>
       <h1>ABM de Productos con Imágenes</h1>
       <ProductoForm onSave={fetchProductos} />
       <hr style={{ margin: "40px auto", width: "80%" }} />

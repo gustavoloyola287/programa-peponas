@@ -1,9 +1,16 @@
 const ContactoPage = () => {
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
-      <h1>Contactooooooooooo</h1>
-      <p>Podés escribirnos a wasapp</p>
+    <body style={{ backgroundColor: "#fff0f6", margin: "0", padding: "0", fontFamily: "Arial, sans-serif" }}>
+      <div style={{ textAlign: "left", padding: "20px" ,backgroundColor: "#fff0f6" , marginTop: "60px"}}>
+      <div>
+        <h1>Contacto</h1>
+         <p>5493541548765 <br />
+            3541 548765 <br />
+            contacto@peponascakes.com.ar <br />
+            Av. San Martín 377, Local B, Villa Carlos Paz, Córdoba</p>
+      </div>
     </div>
+    </body>
   );
 };
 
