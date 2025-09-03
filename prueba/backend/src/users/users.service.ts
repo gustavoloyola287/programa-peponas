@@ -18,6 +18,10 @@ export class UsersService {
     return await this.userRepository.save(user);
   }
 
+  async findByEmail(email: string){
+    return await this.userRepository.findOneBy({ email });
+  }
+
   async findAll() {
     return await this.userRepository.find();
   }
