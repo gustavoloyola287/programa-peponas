@@ -1,25 +1,15 @@
-import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/NavBar.tsx';
-import InicioPage from './pages/InicioPage.tsx';
-import ProductosPage from './pages/ProductosPage.tsx';
-import ContactoPage from './pages/ContactoPage.tsx';
-import QuienessomosPage from './pages/QuienessomosPage.tsx';
-import './App'; 
 
+import AppRoutes from "./routes/approutes.tsx";
+import Navbar from "./components/NavBar.tsx";
+import Footer from "./components/footer.tsx";
 
-function App() {
-  return (
-    <>
-      <Navbar />
-        <Routes>
-          <Route path="/" element={<InicioPage />} />
-          <Route path="/productos" element={<ProductosPage />} />
-          <Route path="/contacto" element={<ContactoPage />} />
-          <Route path="/quienes-somos" element={<QuienessomosPage />} />
-        </Routes>
-     
-    </>
-  );
+const App = () => {
+    return (
+        <div>
+            <Navbar/>
+            <AppRoutes/>
+            <Footer/>
+        </div>
+    );
 }
-
-export default App;
+export default App; 

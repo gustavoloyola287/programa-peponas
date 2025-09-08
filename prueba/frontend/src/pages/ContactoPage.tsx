@@ -1,6 +1,6 @@
 const ContactoPage = () => {
   return (
-    <body style={{ backgroundColor: "#fff0f6", margin: "0", padding: "0", fontFamily: "Arial, sans-serif" }}>
+    
       <div style={{ textAlign: "left", padding: "20px" ,backgroundColor: "#fff0f6" , marginTop: "60px"}}>
       <div>
         <h1>Contacto</h1>
@@ -10,7 +10,7 @@ const ContactoPage = () => {
             Av. San Martín 377, Local B, Villa Carlos Paz, Córdoba</p>
       </div>
     </div>
-    </body>
+   
   );
 };
 
