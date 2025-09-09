@@ -23,6 +23,9 @@ const Navbar: React.FC = () => {
         <li><Link to="/productos" onClick={() => setIsOpen(false)}>Productos</Link></li>
         <li><Link to="/quienes-somos" onClick={() => setIsOpen(false)}>Quiénes Somos</Link></li>
         <li><Link to="/contacto" onClick={() => setIsOpen(false)}>Contacto</Link></li>
+        <li><Link to="/IniciarSesion"onClick={() => setIsOpen (false)}>Iniciar Sesion</Link></li>
+        <li><Link to="/RegistroUsuarios"onClick={() => setIsOpen (false)}>Registrarse</Link></li>
+      
       </ul>
     </nav>
 
