@@ -1,7 +1,7 @@
 const ContactoPage = () => {
   return (
     
-      <div style={{ textAlign: "left", padding: "20px" ,backgroundColor: "#fff0f6" , marginTop: "60px"}}>
+      <div style={{ textAlign: "left", padding: "20px" ,backgroundColor: "#fff0f6" , marginTop: "60px", minHeight: "100vh"}}>
       <div>
         <h1>Contacto</h1>
          <p>5493541548765 <br />
