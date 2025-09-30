@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ProductCard from '../components/ProductCard';
+import ProductCard from '../components/productcard';
 
 const ProductosPage: React.FC = () => {
   const [cart, setCart] = useState<{ id: number; quantity: number }[]>([]);

@@ -14,7 +14,7 @@ export class UsersController {
   }
 
   @Get()
-  @Throttle(5, 60) // 5 requests per 60 seconds
+  @Throttle ({ default: { limit: 5, ttl: 60 } })// 5 requests per 60 seconds
   findAll() {
     return this.usersService.findAll();
   }
